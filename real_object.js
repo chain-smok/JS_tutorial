@@ -1,0 +1,35 @@
+//真實物件 object
+var movie={
+    title:"刻在你心底的名字",
+    maker:"氧氣電影",
+    duration:114,
+    actors:[
+      {
+         name:"陳昊森",
+         age:24,
+         is_male:true
+      },
+      {
+         name:"曾敬樺",
+         age:23,
+         is_male:true
+      }
+    ]
+}
+document.write(movie.title);
+document.write("<br/>");
+document.write(movie.maker);
+document.write("<br/>");
+document.write(movie.duration);
+document.write("<br/>");
+document.write(movie.actors[0].name);
+document.write("<br/>");
+document.write(movie.actors[0].age);
+document.write("<br/>");
+document.write(movie.actors[0].is_male);
+document.write("<br/>");
+document.write(movie.actors[1].name);
+document.write("<br/>");
+document.write(movie.actors[1].age);
+document.write("<br/>");
+document.write(movie.actors[1].is_male);

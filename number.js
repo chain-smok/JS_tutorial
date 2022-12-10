@@ -1,0 +1,21 @@
+//如何使用數字、數字的用法
+var number=2.5;
+//random()預設回傳0~1的數
+//random()*10回傳0~10的數
+document.write(Math.round(Math.random()*10));
+document.write("<br/>");
+document.write(Math.random());
+document.write("<br/>");
+document.write(Math.pow(2,3));
+document.write("<br/>");
+document.write(Math.round(number));
+document.write("<br/>");
+document.write(Math.max(10,14,52));
+document.write("<br/>");
+//document.write(Math.abs(number));
+//document.write("<br/>");
+//document.write(8%number);
+//document.write("<br/>");
+document.write(6.245687);
+document.write("<br/>");
+document.write(6+3);

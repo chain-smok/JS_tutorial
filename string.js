@@ -1,0 +1,15 @@
+var phrase="hello\"Mr.White";
+var text="哈哈";
+document.write(phrase+text);
+document.write("<br/>");
+document.write(phrase.length);
+document.write("<br/>");
+document.write(phrase.toUpperCase());
+document.write("<br/>");
+document.write(phrase.toLowerCase());
+document.write("<br/>");
+document.write(phrase.charAt(1));
+document.write("<br/>");
+document.write(phrase.indexOf("h"));
+document.write("<br/>");
+document.write(phrase.substring(2,10));
